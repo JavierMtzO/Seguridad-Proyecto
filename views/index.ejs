@@ -1,11 +1,18 @@
 <%- include('partials/header') -%>
 
-<h1 class="text-4xl">Hello World</h1>
-
+<h1 class="text-4xl">2FA Seguridad Informática</h1>
+<h3> Equipo Legion</h3>
 <% if (locals.isAuthenticated) { %>
-    <p>You are logged in. <a href="/profile" class="underline">View your profile</a>.</p>
+<p>Has iniciado sesión</p>
 <% } else { %>
-    <p>You are not logged in. <a href="/login" class="underline">Login</a>.</p>
+<p>Inicia sesión <a href="/login" class="underline">Login</a>.</p>
 <% } %>
+
+<br>
+<br>
+
+<p> Javier Martínez Olivares A01401017 </p>
+<p> Victor Omar Molina Camarena A01423485 </p>
+<p> Fernardo Vargas A01066270 </p>
 
 <%- include('partials/footer') -%>
